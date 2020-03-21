@@ -1,0 +1,10 @@
+<%- include ('templates/header'); -%>
+        
+        
+        <!--// display 4 random images and the number of likes above the image-->
+        <% randomIndices.forEach(function(index) { %>
+            <% let imageURL = images.hits[index].largeImageURL; %>
+            <% let like = images.hits[index].likes; %>
+            <div class="img-thumbnail flex-item"> <strong>Likes:"<%=like%>" </strong><img src="<%=imageURL%>"> </div>
+        <%    }); %> 
+<%- include ('templates/footer'); -%>

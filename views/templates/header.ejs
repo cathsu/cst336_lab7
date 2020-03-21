@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+    </head>
+    <body class="container">
+        <h1> Pixaby Search (Express Version) </h1>
+        <form action="/results">
+            <div class="form-group row">
+                <label for="inputKeyword" class="col-sm-2 col-form-label">Keyword</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="keyword" placeholder="Keyword">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="orientation" class="col-sm-2 col-form-label">Orientation</label>
+                <div class="col-sm-5">
+                    <select name="orientation">
+                      <option value="horizontal">Horizontal</option>
+                      <option value="vertical">Vertical</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <div id=results class="flex-container">

@@ -1,0 +1,24 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathsu/cst336_lab7.git"
+  },
+  "author": "Cathy Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cathsu/cst336_lab7/issues"
+  },
+  "homepage": "https://github.com/cathsu/cst336_lab7#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
